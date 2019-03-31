@@ -1,0 +1,20 @@
+{
+  "start": "2019/04/01",
+  "end": "2019/04/21",
+  "only_weekdays": false,
+  "morning_sessions": 2,
+  "afternoon_sessions": 2,
+  "earliest_start_time": "08:00",
+  "lunch_start_time": "12:30",
+  "lunch_end_time": "14:00",
+  "latest_finish_time": "22:00",
+  "best_session_length": 120,
+  "break_between_sessions": 30,
+  "subjects": [
+    "CS",
+    "CS:CW",
+    "PHY",
+    "STAT",
+    "PURE"
+  ]
+}
