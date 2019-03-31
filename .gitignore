@@ -1,2 +1,5 @@
 # ignore the other files used by latexrun
 latex.out
+
+# mypy is wack man
+.mypy_cache
