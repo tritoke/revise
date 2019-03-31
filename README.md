@@ -10,7 +10,7 @@ a PDF of the timetable which can be printed etc.
 
 ## dependencies
 
-latexrun
-make
-python3
+- latexrun
+- make
+- python3
 
