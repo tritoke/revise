@@ -1,9 +1,15 @@
-all:
+all: timetable pdf
+
+csv: timetable
+
+timetable:
 	./create_csv.py
+
+pdf: timetable
 	latexrun timetable.tex
 
 export: all
-	mv timetable.pdf revision.csv ..
+	cp timetable.pdf revision.csv ..
 
 clean:                                  
 	rm -rf latex.out
