@@ -189,7 +189,7 @@ np.random.shuffle(data.flat)
 data = np.array([
     np.array(
         sample(
-            (*i, "free"),
+            (*i, settings["free_time_activity"]),
             k=(sessions_per_day + 1)
         )
     )

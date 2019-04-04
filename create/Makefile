@@ -11,6 +11,9 @@ pdf: timetable
 export: all
 	cp timetable.pdf revision.csv ..
 
+view: pdf
+	zathura timetable.pdf
+
 clean:                                  
 	rm -rf latex.out
 	rm revision.csv

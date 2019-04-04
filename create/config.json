@@ -14,7 +14,9 @@
     "CS",
     "CS:CW",
     "PHY",
+    "PHY",
     "STAT",
     "PURE"
-  ]
+  ],
+  "free_time_activity": "CS:CW"
 }
