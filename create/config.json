@@ -1,6 +1,6 @@
 {
-  "start": "2019/04/01",
-  "end": "2019/04/21",
+  "start": "2019/05/26",
+  "end": "2019/06/03",
   "only_weekdays": false,
   "morning_sessions": 2,
   "afternoon_sessions": 2,
@@ -12,11 +12,13 @@
   "break_between_sessions": 30,
   "subjects": [
     "CS",
-    "CS:CW",
-    "PHY",
+    "CS",
     "PHY",
     "STAT",
+    "MECH",
+    "PURE",
+    "PURE",
     "PURE"
   ],
-  "free_time_activity": "CS:CW"
+  "free_time_activity": "FREE"
 }
